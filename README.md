@@ -1,6 +1,6 @@
 # Headless Linux Game Streaming: A Fake Monitor, an Unkillable Driver, and the Wayland Fix That Worked
 
-A from-scratch build log for turning a hand-me-down laptop with no monitor attached into a headless game-streaming server: a real display, created only in software, that a SNES emulator can render into, that a streaming host can capture and send to a client on another machine over the network.
+A build log for turning a headless Linux server with no monitor attached into a working game-streaming setup — a real display created entirely in software, a SNES emulator rendering into it, and a streaming host sending that over the network to another machine.
 
 **If you landed here from a Reddit/forum thread about an NVIDIA driver hanging on shutdown after using `ConnectedMonitor` + `CustomEDID`, or `nvidia: [drm] *ERROR* Disabling all crtc's during unload failed with -22`, start with [`docs/02-xorg-dead-end.md`](docs/02-xorg-dead-end.md).** That's the specific dead end this repo exists to document, so nobody else has to rediscover it from scratch.
 
